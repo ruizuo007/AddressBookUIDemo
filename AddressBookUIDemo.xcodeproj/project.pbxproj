@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB45D2B91A28476C00F2E01A /* web in Resources */ = {isa = PBXBuildFile; fileRef = BB45D2B81A28476C00F2E01A /* web */; };
+		BB45D2D01A2C37EC00F2E01A /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2C01A2C37EC00F2E01A /* ChineseToPinyinResource.m */; };
+		BB45D2D11A2C37EC00F2E01A /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2C21A2C37EC00F2E01A /* HanyuPinyinOutputFormat.m */; };
+		BB45D2D21A2C37EC00F2E01A /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2C41A2C37EC00F2E01A /* NSString+PinYin4Cocoa.m */; };
+		BB45D2D31A2C37EC00F2E01A /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2C71A2C37EC00F2E01A /* PinyinFormatter.m */; };
+		BB45D2D41A2C37EC00F2E01A /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2C91A2C37EC00F2E01A /* PinyinHelper.m */; };
+		BB45D2D51A2C37EC00F2E01A /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB45D2CB1A2C37EC00F2E01A /* unicode_to_hanyu_pinyin.txt */; };
+		BB45D2D61A2C37EC00F2E01A /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2CD1A2C37EC00F2E01A /* pinyin.c */; };
+		BB45D2D91A2C397000F2E01A /* PinYinUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB45D2D81A2C397000F2E01A /* PinYinUtil.m */; };
+		BB7097BA1A44208300761BEF /* BasePeoplePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7097B91A44208300761BEF /* BasePeoplePickerController.m */; };
+		BBCA4FF01A01E7FF00E6D9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA4FEF1A01E7FF00E6D9DB /* main.m */; };
+		BBCA4FF31A01E7FF00E6D9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA4FF21A01E7FF00E6D9DB /* AppDelegate.m */; };
+		BBCA4FF61A01E7FF00E6D9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA4FF51A01E7FF00E6D9DB /* ViewController.m */; };
+		BBCA4FF91A01E7FF00E6D9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCA4FF71A01E7FF00E6D9DB /* Main.storyboard */; };
+		BBCA4FFB1A01E7FF00E6D9DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCA4FFA1A01E7FF00E6D9DB /* Images.xcassets */; };
+		BBCA4FFE1A01E7FF00E6D9DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBCA4FFC1A01E7FF00E6D9DB /* LaunchScreen.xib */; };
+		BBCA500A1A01E7FF00E6D9DB /* AddressBookUIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCA50091A01E7FF00E6D9DB /* AddressBookUIDemoTests.m */; };
+		BBD083B41A30009E004A1BAA /* member.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD083B31A30009E004A1BAA /* member.png */; };
+		BBD083ED1A304326004A1BAA /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD083EC1A304326004A1BAA /* CoreDataManager.m */; };
+		BBD083F01A304383004A1BAA /* AppDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBD083EE1A304383004A1BAA /* AppDataModel.xcdatamodeld */; };
+		BBD084301A304526004A1BAA /* AddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD083F31A304525004A1BAA /* AddressBookManager.m */; };
+		BBD084311A304526004A1BAA /* libRHAddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD084061A304526004A1BAA /* libRHAddressBook.a */; };
+		BBD084341A304526004A1BAA /* PeoplePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0840C1A304526004A1BAA /* PeoplePickerCell.m */; };
+		BBD084351A304526004A1BAA /* PeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0840E1A304526004A1BAA /* PeoplePickerNavigationController.m */; };
+		BBD084361A304526004A1BAA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD084101A304526004A1BAA /* Person.m */; };
+		BBD084421A304526004A1BAA /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0842F1A304526004A1BAA /* AlertManager.m */; };
+		BBD34EEA1A41542500910FEB /* NewPeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD34EE91A41542500910FEB /* NewPeoplePickerNavigationController.m */; };
+		BBD34EED1A41577000910FEB /* NNewPeoplePickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD34EEC1A41577000910FEB /* NNewPeoplePickerNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBCA50041A01E7FF00E6D9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCA4FE21A01E7FF00E6D9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCA4FE91A01E7FF00E6D9DB;
+			remoteInfo = AddressBookUIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB31291E1A09C4AB0027C260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BB45D2B81A28476C00F2E01A /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+		BB45D2BF1A2C37EC00F2E01A /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		BB45D2C01A2C37EC00F2E01A /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		BB45D2C11A2C37EC00F2E01A /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		BB45D2C21A2C37EC00F2E01A /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		BB45D2C31A2C37EC00F2E01A /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		BB45D2C41A2C37EC00F2E01A /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		BB45D2C51A2C37EC00F2E01A /* PinYin4Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYin4Objc.h; sourceTree = "<group>"; };
+		BB45D2C61A2C37EC00F2E01A /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		BB45D2C71A2C37EC00F2E01A /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		BB45D2C81A2C37EC00F2E01A /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		BB45D2C91A2C37EC00F2E01A /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		BB45D2CB1A2C37EC00F2E01A /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		BB45D2CD1A2C37EC00F2E01A /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		BB45D2CE1A2C37EC00F2E01A /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		BB45D2D71A2C397000F2E01A /* PinYinUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinUtil.h; sourceTree = "<group>"; };
+		BB45D2D81A2C397000F2E01A /* PinYinUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinUtil.m; sourceTree = "<group>"; };
+		BB7097B81A44208300761BEF /* BasePeoplePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePeoplePickerController.h; sourceTree = "<group>"; };
+		BB7097B91A44208300761BEF /* BasePeoplePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePeoplePickerController.m; sourceTree = "<group>"; };
+		BBCA4FEA1A01E7FF00E6D9DB /* AddressBookUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBookUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA4FEE1A01E7FF00E6D9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCA4FEF1A01E7FF00E6D9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBCA4FF11A01E7FF00E6D9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBCA4FF21A01E7FF00E6D9DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBCA4FF41A01E7FF00E6D9DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBCA4FF51A01E7FF00E6D9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBCA4FF81A01E7FF00E6D9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBCA4FFA1A01E7FF00E6D9DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBCA4FFD1A01E7FF00E6D9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BBCA50031A01E7FF00E6D9DB /* AddressBookUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA50081A01E7FF00E6D9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCA50091A01E7FF00E6D9DB /* AddressBookUIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUIDemoTests.m; sourceTree = "<group>"; };
+		BBD0836E1A2D8C30004A1BAA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BBD0836F1A2D8DD1004A1BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBD083701A2D8DD5004A1BAA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		BBD083B31A30009E004A1BAA /* member.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = member.png; sourceTree = "<group>"; };
+		BBD083EB1A304326004A1BAA /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		BBD083EC1A304326004A1BAA /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		BBD083EF1A304383004A1BAA /* AppDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDataModel.xcdatamodel; sourceTree = "<group>"; };
+		BBD083F21A304525004A1BAA /* AddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookManager.h; sourceTree = "<group>"; };
+		BBD083F31A304525004A1BAA /* AddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookManager.m; sourceTree = "<group>"; };
+		BBD083F71A304525004A1BAA /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		BBD083F91A304525004A1BAA /* NSThread+RHBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+RHBlockAdditions.h"; sourceTree = "<group>"; };
+		BBD083FA1A304525004A1BAA /* RHAddressBook_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBook_Private.h; sourceTree = "<group>"; };
+		BBD083FB1A304525004A1BAA /* RHAddressBookGeoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBookGeoResult.h; sourceTree = "<group>"; };
+		BBD083FC1A304525004A1BAA /* RHAddressBookSharedServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBookSharedServices.h; sourceTree = "<group>"; };
+		BBD083FD1A304525004A1BAA /* RHAddressBookThreadMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBookThreadMain.h; sourceTree = "<group>"; };
+		BBD083FE1A304525004A1BAA /* RHRecord_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRecord_Private.h; sourceTree = "<group>"; };
+		BBD083FF1A304526004A1BAA /* RHAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBook.h; sourceTree = "<group>"; };
+		BBD084001A304526004A1BAA /* RHGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHGroup.h; sourceTree = "<group>"; };
+		BBD084011A304526004A1BAA /* RHMultiValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMultiValue.h; sourceTree = "<group>"; };
+		BBD084021A304526004A1BAA /* RHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPerson.h; sourceTree = "<group>"; };
+		BBD084031A304526004A1BAA /* RHPersonLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPersonLabels.h; sourceTree = "<group>"; };
+		BBD084041A304526004A1BAA /* RHRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRecord.h; sourceTree = "<group>"; };
+		BBD084051A304526004A1BAA /* RHSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHSource.h; sourceTree = "<group>"; };
+		BBD084061A304526004A1BAA /* libRHAddressBook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRHAddressBook.a; sourceTree = "<group>"; };
+		BBD0840B1A304526004A1BAA /* PeoplePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeoplePickerCell.h; sourceTree = "<group>"; };
+		BBD0840C1A304526004A1BAA /* PeoplePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeoplePickerCell.m; sourceTree = "<group>"; };
+		BBD0840D1A304526004A1BAA /* PeoplePickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeoplePickerNavigationController.h; sourceTree = "<group>"; };
+		BBD0840E1A304526004A1BAA /* PeoplePickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeoplePickerNavigationController.m; sourceTree = "<group>"; };
+		BBD0840F1A304526004A1BAA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BBD084101A304526004A1BAA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BBD0842E1A304526004A1BAA /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertManager.h; sourceTree = "<group>"; };
+		BBD0842F1A304526004A1BAA /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertManager.m; sourceTree = "<group>"; };
+		BBD34EE81A41542500910FEB /* NewPeoplePickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPeoplePickerNavigationController.h; sourceTree = "<group>"; };
+		BBD34EE91A41542500910FEB /* NewPeoplePickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPeoplePickerNavigationController.m; sourceTree = "<group>"; };
+		BBD34EEB1A41577000910FEB /* NNewPeoplePickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNewPeoplePickerNavigationController.h; sourceTree = "<group>"; };
+		BBD34EEC1A41577000910FEB /* NNewPeoplePickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNewPeoplePickerNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBCA4FE71A01E7FF00E6D9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD084311A304526004A1BAA /* libRHAddressBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA50001A01E7FF00E6D9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB45D2BC1A2C37EC00F2E01A /* PinYin */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D2BD1A2C37EC00F2E01A /* PinYin4Objc */,
+				BB45D2CC1A2C37EC00F2E01A /* PinYinFirstLetter */,
+				BB45D2D71A2C397000F2E01A /* PinYinUtil.h */,
+				BB45D2D81A2C397000F2E01A /* PinYinUtil.m */,
+			);
+			path = PinYin;
+			sourceTree = "<group>";
+		};
+		BB45D2BD1A2C37EC00F2E01A /* PinYin4Objc */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D2BE1A2C37EC00F2E01A /* Classes */,
+				BB45D2CA1A2C37EC00F2E01A /* Resources */,
+			);
+			path = PinYin4Objc;
+			sourceTree = "<group>";
+		};
+		BB45D2BE1A2C37EC00F2E01A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D2BF1A2C37EC00F2E01A /* ChineseToPinyinResource.h */,
+				BB45D2C01A2C37EC00F2E01A /* ChineseToPinyinResource.m */,
+				BB45D2C11A2C37EC00F2E01A /* HanyuPinyinOutputFormat.h */,
+				BB45D2C21A2C37EC00F2E01A /* HanyuPinyinOutputFormat.m */,
+				BB45D2C31A2C37EC00F2E01A /* NSString+PinYin4Cocoa.h */,
+				BB45D2C41A2C37EC00F2E01A /* NSString+PinYin4Cocoa.m */,
+				BB45D2C51A2C37EC00F2E01A /* PinYin4Objc.h */,
+				BB45D2C61A2C37EC00F2E01A /* PinyinFormatter.h */,
+				BB45D2C71A2C37EC00F2E01A /* PinyinFormatter.m */,
+				BB45D2C81A2C37EC00F2E01A /* PinyinHelper.h */,
+				BB45D2C91A2C37EC00F2E01A /* PinyinHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB45D2CA1A2C37EC00F2E01A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D2CB1A2C37EC00F2E01A /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB45D2CC1A2C37EC00F2E01A /* PinYinFirstLetter */ = {
+			isa = PBXGroup;
+			children = (
+				BB45D2CE1A2C37EC00F2E01A /* pinyin.h */,
+				BB45D2CD1A2C37EC00F2E01A /* pinyin.c */,
+				BB45D2CF1A2C37EC00F2E01A /* PolyphoneFile */,
+			);
+			path = PinYinFirstLetter;
+			sourceTree = "<group>";
+		};
+		BB45D2CF1A2C37EC00F2E01A /* PolyphoneFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PolyphoneFile;
+			sourceTree = "<group>";
+		};
+		BB45D2DA1A2C461500F2E01A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBCA4FE11A01E7FF00E6D9DB = {
+			isa = PBXGroup;
+			children = (
+				BB45D2DA1A2C461500F2E01A /* Frameworks */,
+				BBCA4FEC1A01E7FF00E6D9DB /* AddressBookUIDemo */,
+				BBCA50061A01E7FF00E6D9DB /* AddressBookUIDemoTests */,
+				BBCA4FEB1A01E7FF00E6D9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBCA4FEB1A01E7FF00E6D9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA4FEA1A01E7FF00E6D9DB /* AddressBookUIDemo.app */,
+				BBCA50031A01E7FF00E6D9DB /* AddressBookUIDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCA4FEC1A01E7FF00E6D9DB /* AddressBookUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083F11A304525004A1BAA /* AddressBook */,
+				BBD0842D1A304526004A1BAA /* Alert */,
+				BBD083B21A30009E004A1BAA /* res */,
+				BBD083AC1A2EB927004A1BAA /* DataStorage */,
+				BB45D2BC1A2C37EC00F2E01A /* PinYin */,
+				BB45D2B81A28476C00F2E01A /* web */,
+				BBCA4FF11A01E7FF00E6D9DB /* AppDelegate.h */,
+				BBCA4FF21A01E7FF00E6D9DB /* AppDelegate.m */,
+				BBCA4FF41A01E7FF00E6D9DB /* ViewController.h */,
+				BBCA4FF51A01E7FF00E6D9DB /* ViewController.m */,
+				BBCA4FF71A01E7FF00E6D9DB /* Main.storyboard */,
+				BBCA4FFA1A01E7FF00E6D9DB /* Images.xcassets */,
+				BBCA4FFC1A01E7FF00E6D9DB /* LaunchScreen.xib */,
+				BBCA4FED1A01E7FF00E6D9DB /* Supporting Files */,
+			);
+			path = AddressBookUIDemo;
+			sourceTree = "<group>";
+		};
+		BBCA4FED1A01E7FF00E6D9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA4FEE1A01E7FF00E6D9DB /* Info.plist */,
+				BBCA4FEF1A01E7FF00E6D9DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBCA50061A01E7FF00E6D9DB /* AddressBookUIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA50091A01E7FF00E6D9DB /* AddressBookUIDemoTests.m */,
+				BBCA50071A01E7FF00E6D9DB /* Supporting Files */,
+			);
+			path = AddressBookUIDemoTests;
+			sourceTree = "<group>";
+		};
+		BBCA50071A01E7FF00E6D9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA50081A01E7FF00E6D9DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBD083AC1A2EB927004A1BAA /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083EB1A304326004A1BAA /* CoreDataManager.h */,
+				BBD083EC1A304326004A1BAA /* CoreDataManager.m */,
+				BBD083EE1A304383004A1BAA /* AppDataModel.xcdatamodeld */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		BBD083B21A30009E004A1BAA /* res */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083B31A30009E004A1BAA /* member.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		BBD083F11A304525004A1BAA /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083F21A304525004A1BAA /* AddressBookManager.h */,
+				BBD083F31A304525004A1BAA /* AddressBookManager.m */,
+				BBD083F41A304525004A1BAA /* libRHAddressBook */,
+				BBD0840B1A304526004A1BAA /* PeoplePickerCell.h */,
+				BBD0840C1A304526004A1BAA /* PeoplePickerCell.m */,
+				BBD0840D1A304526004A1BAA /* PeoplePickerNavigationController.h */,
+				BBD0840E1A304526004A1BAA /* PeoplePickerNavigationController.m */,
+				BBD0840F1A304526004A1BAA /* Person.h */,
+				BBD084101A304526004A1BAA /* Person.m */,
+				BBD34EE81A41542500910FEB /* NewPeoplePickerNavigationController.h */,
+				BBD34EE91A41542500910FEB /* NewPeoplePickerNavigationController.m */,
+				BBD34EEB1A41577000910FEB /* NNewPeoplePickerNavigationController.h */,
+				BBD34EEC1A41577000910FEB /* NNewPeoplePickerNavigationController.m */,
+				BB7097B81A44208300761BEF /* BasePeoplePickerController.h */,
+				BB7097B91A44208300761BEF /* BasePeoplePickerController.m */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		BBD083F41A304525004A1BAA /* libRHAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083F51A304525004A1BAA /* include */,
+				BBD084061A304526004A1BAA /* libRHAddressBook.a */,
+			);
+			path = libRHAddressBook;
+			sourceTree = "<group>";
+		};
+		BBD083F51A304525004A1BAA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083F61A304525004A1BAA /* RHAddressBook */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BBD083F61A304525004A1BAA /* RHAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083F71A304525004A1BAA /* AddressBook.h */,
+				BBD083F81A304525004A1BAA /* Private */,
+				BBD083FF1A304526004A1BAA /* RHAddressBook.h */,
+				BBD084001A304526004A1BAA /* RHGroup.h */,
+				BBD084011A304526004A1BAA /* RHMultiValue.h */,
+				BBD084021A304526004A1BAA /* RHPerson.h */,
+				BBD084031A304526004A1BAA /* RHPersonLabels.h */,
+				BBD084041A304526004A1BAA /* RHRecord.h */,
+				BBD084051A304526004A1BAA /* RHSource.h */,
+			);
+			path = RHAddressBook;
+			sourceTree = "<group>";
+		};
+		BBD083F81A304525004A1BAA /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				BBD083F91A304525004A1BAA /* NSThread+RHBlockAdditions.h */,
+				BBD083FA1A304525004A1BAA /* RHAddressBook_Private.h */,
+				BBD083FB1A304525004A1BAA /* RHAddressBookGeoResult.h */,
+				BBD083FC1A304525004A1BAA /* RHAddressBookSharedServices.h */,
+				BBD083FD1A304525004A1BAA /* RHAddressBookThreadMain.h */,
+				BBD083FE1A304525004A1BAA /* RHRecord_Private.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		BBD0842D1A304526004A1BAA /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				BBD0842E1A304526004A1BAA /* AlertManager.h */,
+				BBD0842F1A304526004A1BAA /* AlertManager.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBCA4FE91A01E7FF00E6D9DB /* AddressBookUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCA500D1A01E7FF00E6D9DB /* Build configuration list for PBXNativeTarget "AddressBookUIDemo" */;
+			buildPhases = (
+				BBCA4FE61A01E7FF00E6D9DB /* Sources */,
+				BBCA4FE71A01E7FF00E6D9DB /* Frameworks */,
+				BBCA4FE81A01E7FF00E6D9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBookUIDemo;
+			productName = AddressBookUIDemo;
+			productReference = BBCA4FEA1A01E7FF00E6D9DB /* AddressBookUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBCA50021A01E7FF00E6D9DB /* AddressBookUIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBCA50101A01E7FF00E6D9DB /* Build configuration list for PBXNativeTarget "AddressBookUIDemoTests" */;
+			buildPhases = (
+				BBCA4FFF1A01E7FF00E6D9DB /* Sources */,
+				BBCA50001A01E7FF00E6D9DB /* Frameworks */,
+				BBCA50011A01E7FF00E6D9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBCA50051A01E7FF00E6D9DB /* PBXTargetDependency */,
+			);
+			name = AddressBookUIDemoTests;
+			productName = AddressBookUIDemoTests;
+			productReference = BBCA50031A01E7FF00E6D9DB /* AddressBookUIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBCA4FE21A01E7FF00E6D9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Allinpay.inc;
+				TargetAttributes = {
+					BBCA4FE91A01E7FF00E6D9DB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BBCA50021A01E7FF00E6D9DB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BBCA4FE91A01E7FF00E6D9DB;
+					};
+				};
+			};
+			buildConfigurationList = BBCA4FE51A01E7FF00E6D9DB /* Build configuration list for PBXProject "AddressBookUIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBCA4FE11A01E7FF00E6D9DB;
+			productRefGroup = BBCA4FEB1A01E7FF00E6D9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBCA4FE91A01E7FF00E6D9DB /* AddressBookUIDemo */,
+				BBCA50021A01E7FF00E6D9DB /* AddressBookUIDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBCA4FE81A01E7FF00E6D9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA4FF91A01E7FF00E6D9DB /* Main.storyboard in Resources */,
+				BB45D2B91A28476C00F2E01A /* web in Resources */,
+				BBCA4FFE1A01E7FF00E6D9DB /* LaunchScreen.xib in Resources */,
+				BBCA4FFB1A01E7FF00E6D9DB /* Images.xcassets in Resources */,
+				BB45D2D51A2C37EC00F2E01A /* unicode_to_hanyu_pinyin.txt in Resources */,
+				BBD083B41A30009E004A1BAA /* member.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA50011A01E7FF00E6D9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBCA4FE61A01E7FF00E6D9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD083ED1A304326004A1BAA /* CoreDataManager.m in Sources */,
+				BB45D2D61A2C37EC00F2E01A /* pinyin.c in Sources */,
+				BBD084361A304526004A1BAA /* Person.m in Sources */,
+				BBD083F01A304383004A1BAA /* AppDataModel.xcdatamodeld in Sources */,
+				BB45D2D01A2C37EC00F2E01A /* ChineseToPinyinResource.m in Sources */,
+				BB7097BA1A44208300761BEF /* BasePeoplePickerController.m in Sources */,
+				BBD34EEA1A41542500910FEB /* NewPeoplePickerNavigationController.m in Sources */,
+				BBD084341A304526004A1BAA /* PeoplePickerCell.m in Sources */,
+				BBCA4FF61A01E7FF00E6D9DB /* ViewController.m in Sources */,
+				BBD084421A304526004A1BAA /* AlertManager.m in Sources */,
+				BB45D2D91A2C397000F2E01A /* PinYinUtil.m in Sources */,
+				BB45D2D21A2C37EC00F2E01A /* NSString+PinYin4Cocoa.m in Sources */,
+				BB45D2D31A2C37EC00F2E01A /* PinyinFormatter.m in Sources */,
+				BB45D2D11A2C37EC00F2E01A /* HanyuPinyinOutputFormat.m in Sources */,
+				BBD084301A304526004A1BAA /* AddressBookManager.m in Sources */,
+				BBCA4FF31A01E7FF00E6D9DB /* AppDelegate.m in Sources */,
+				BBD084351A304526004A1BAA /* PeoplePickerNavigationController.m in Sources */,
+				BBCA4FF01A01E7FF00E6D9DB /* main.m in Sources */,
+				BB45D2D41A2C37EC00F2E01A /* PinyinHelper.m in Sources */,
+				BBD34EED1A41577000910FEB /* NNewPeoplePickerNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCA4FFF1A01E7FF00E6D9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCA500A1A01E7FF00E6D9DB /* AddressBookUIDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBCA50051A01E7FF00E6D9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCA4FE91A01E7FF00E6D9DB /* AddressBookUIDemo */;
+			targetProxy = BBCA50041A01E7FF00E6D9DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBCA4FF71A01E7FF00E6D9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCA4FF81A01E7FF00E6D9DB /* Base */,
+				BBD0836F1A2D8DD1004A1BAA /* en */,
+				BBD083701A2D8DD5004A1BAA /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBCA4FFC1A01E7FF00E6D9DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBCA4FFD1A01E7FF00E6D9DB /* Base */,
+				BB31291E1A09C4AB0027C260 /* en */,
+				BBD0836E1A2D8C30004A1BAA /* zh-Hans */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBCA500B1A01E7FF00E6D9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBCA500C1A01E7FF00E6D9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Allinpay Network Service Co. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Allinpay Network Service Co. Ltd.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBCA500E1A01E7FF00E6D9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = AddressBookUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AddressBookUIDemo/AddressBook/libRHAddressBook",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBCA500F1A01E7FF00E6D9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = AddressBookUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AddressBookUIDemo/AddressBook/libRHAddressBook",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBCA50111A01E7FF00E6D9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddressBookUIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBookUIDemo.app/AddressBookUIDemo";
+			};
+			name = Debug;
+		};
+		BBCA50121A01E7FF00E6D9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddressBookUIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBookUIDemo.app/AddressBookUIDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBCA4FE51A01E7FF00E6D9DB /* Build configuration list for PBXProject "AddressBookUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA500B1A01E7FF00E6D9DB /* Debug */,
+				BBCA500C1A01E7FF00E6D9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCA500D1A01E7FF00E6D9DB /* Build configuration list for PBXNativeTarget "AddressBookUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA500E1A01E7FF00E6D9DB /* Debug */,
+				BBCA500F1A01E7FF00E6D9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBCA50101A01E7FF00E6D9DB /* Build configuration list for PBXNativeTarget "AddressBookUIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBCA50111A01E7FF00E6D9DB /* Debug */,
+				BBCA50121A01E7FF00E6D9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BBD083EE1A304383004A1BAA /* AppDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BBD083EF1A304383004A1BAA /* AppDataModel.xcdatamodel */,
+			);
+			currentVersion = BBD083EF1A304383004A1BAA /* AppDataModel.xcdatamodel */;
+			path = AppDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BBCA4FE21A01E7FF00E6D9DB /* Project object */;
+}

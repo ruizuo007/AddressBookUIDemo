@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
+        <style>
+            input {
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 10px;
+                margin-bottom: : 0px;
+                width: 50%;
+                height: 44px;
+                text-align:left;
+            }
+            a {
+                width: 15%;
+                height: 44px;
+            }
+        </style>
+        <script type="text/javascript">
+            function setText(text) {
+                var div = document.getElementById("main");
+                var input = div.getElementsByTagName("input")[0];
+                input.value = text;
+                return text;
+            }
+        </script>
+    </head>
+    <body style="background-color:azure;padding:0px">
+        <div id="main">
+            <table>
+                <div>
+                    <input type="text" placeholder="输入手机号码、邮箱"></input>
+                    <a href="contact://?action=mobileRecharge">手机充值</a>
+                    <a href="contact://?action=transferAccounts">转账</a>
+                </div>
+            </table>
+        </div>
+    </body>
+</html>
