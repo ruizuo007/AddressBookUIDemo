@@ -12,7 +12,7 @@ User address book function module like WeChat or Alipay Wallet
 
    . RHAddresBook
    
-     Code: https://github.com/Soryu/RHAddressBook
+     Code: <https://github.com/Soryu/RHAddressBook/>
            https://github.com/heardrwt/RHAddressBook
            
      Docs: http://cocoadocs.org/docsets/RHAddressBook/1.0.3/index.html
